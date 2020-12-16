@@ -47,3 +47,15 @@ Day005 => 16/12/2020
 
     #Project:
     - Password Generator
+<BR>
+Day006 => 16/12/2020
+    - Functions
+    - Code Blocks
+    - While Loops
+
+    #Project:
+    - No project in this day :(
+
+<BR>
+Day007 => 16/12/2020
+
