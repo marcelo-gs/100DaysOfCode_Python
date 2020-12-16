@@ -1,3 +1,5 @@
+print("Version 0.2 - the first story")
+print("By Marcelo Gomes")
 print('''
 *******************************************************************************
           |                   |                  |                     |
