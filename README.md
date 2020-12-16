@@ -2,12 +2,48 @@
 
 Challenge to code every day 
 
-Day001 => 14/12 
+Day001 => 14/12/2020
     - The first day, build my envirolment 
+    - Printing
+    - Commenting
+    - Debugging
+    - String Manipulation 
+    - Variables
+    
+    #Project:
+     - Brand Name Generator
 <BR>
-Day002 => 15/12
+Day002 => 15/12/2020
+    - Data Type
+    - Numbers
+    - Operations
+    - Type Conversion
+    - f-String (I really love this!!!)
+
+    #Project:    
     - Tip calculator
+
 <BR>
-Day003 => 15/12
+Day003 => 15/12/2020
+    - Conditional Statements
+    - Logical Operators
+    - Code Blocks
+    - Scope
+    
+    #Project:
     - Making a treasure island game
 <BR>
+Day004 => 16/12/2020
+    - Randomisation
+    - Lists
+
+    #Project:
+    - Rock Paper Scissors game
+<BR>
+Day005 => 16/12/2020
+    - For loops
+    - Range
+    - Code Blocks
+
+    #Project:
+    - Password Generator
