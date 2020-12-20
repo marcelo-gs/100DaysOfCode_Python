@@ -62,3 +62,10 @@ Day007 => 16/12/2020
 <BR>
 Day008 => 17/12/2020
     - Caesar Chiper Encrypt and Decrypt project
+<BR>
+Day008 => 18/12/2020
+    - To Continue the project
+    - Caesar Chiper Encrypt and Decrypt project
+<BR>
+Day009 => 19/12/2020
+    - The Secret Auction Program
