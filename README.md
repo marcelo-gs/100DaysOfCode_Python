@@ -69,3 +69,13 @@ Day008 => 18/12/2020
 <BR>
 Day009 => 19/12/2020
     - The Secret Auction Program
+<BR>
+Day010 => 20/12/2020
+    - Exercises 
+    - Calculator (to be continue...) 
+<BR>
+Day010 => 21/12/2020
+    - Calculator
+<BR>
+Day011 => 21/12/2020
+    - Black Jack Program
