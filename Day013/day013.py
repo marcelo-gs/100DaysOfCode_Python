@@ -1,0 +1,1 @@
+print("Today all exercises was to learn how to debug")
