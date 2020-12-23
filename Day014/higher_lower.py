@@ -5,7 +5,7 @@ from os import system, name
 
 used_data = []
 score = 0 
-def Inicite_game():
+def start_game():
     clear()
     print(logo)
     return False
@@ -47,7 +47,7 @@ def clear():
 data_A = get_aleatory_info()
 data_B = get_aleatory_info()
 
-end_of_game = Inicite_game()
+end_of_game = start_game()
 while not end_of_game:
     print_dispute(data_A, data_B)
     answer = input("\nWho has more followers (Type 'A' or 'B'): ").upper()
@@ -55,7 +55,7 @@ while not end_of_game:
         print("Win")
         if answer == "B":
             data_A = data_B
-        end_of_game = Inicite_game()
+        end_of_game = start_game()
         data_B = get_aleatory_info()
         score += 1
         print(f"You're right! Current score: {score}")
