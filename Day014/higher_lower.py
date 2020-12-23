@@ -3,12 +3,16 @@ from art import logo, vs
 import random
 from os import system, name 
 
+
 used_data = []
 score = 0 
+
+
 def start_game():
     clear()
     print(logo)
     return False
+
 
 def get_aleatory_info():
     find = False
@@ -21,16 +25,19 @@ def get_aleatory_info():
             find = True
             return data[position]
 
+
 def print_dispute(dataA, dataB):
     print(f"Compare A: {dataA['name']}, {dataA['description']} from {dataA['country']}")
     print(vs)
     print(f"Against B: {dataB['name']}, {dataB['description']} from {dataB['country']}")
+
 
 def who_wins(dataA, dataB):
     if int(dataA['follower_count']) > int(dataB['follower_count']):
         return "A"
     else:
         return "B"
+
 
 # define our clear function 
 def clear(): 
