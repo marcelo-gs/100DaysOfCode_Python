@@ -65,7 +65,7 @@ def clear():
 
 def choice_number():
     """ return a aleatory number between 1 and 100 """
-    return random.randint(0, 100) + 1
+    return random.randint(1, 100)
 
 def attempts(difiiculty):
     """define the number of attempts for each difficulty
