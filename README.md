@@ -82,4 +82,4 @@ Day011 => 21/12/2020
 
 <BR>
 Day012 => 22/12/2020
-    - Black Jack Program
+    - Number Guessing Game
