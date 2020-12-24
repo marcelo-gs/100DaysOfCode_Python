@@ -79,7 +79,18 @@ Day010 => 21/12/2020
 <BR>
 Day011 => 21/12/2020
     - Black Jack Program
-
 <BR>
 Day012 => 22/12/2020
     - Number Guessing Game
+<BR>
+Day013 => 23/12/2020
+    - Debugging day (no project today)
+<BR>
+Day014 => 23/12/2020
+    - High Lower game Project
+<BR>
+Day015 => 23/12/2020
+    - Coffee Machine Project
+<BR>
+Day016 => 24/12/2020
+    - Coffee Machine Object Oriented Project
