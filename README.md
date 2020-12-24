@@ -94,3 +94,7 @@ Day015 => 23/12/2020
 <BR>
 Day016 => 24/12/2020
     - Coffee Machine Object Oriented Project
+<BR>
+Day017 => 24/12/2020
+    - Quiz Game
+    ---- Plus with Open Trivia DB API Questions (improvement)
