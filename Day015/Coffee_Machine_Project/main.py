@@ -111,6 +111,11 @@ def print_help():
     print("\t\t refuel --> Refuel resources (walter, milk and coffee")
     input("\nType <enter> to return...")
 
+def print_menu():
+    print('\tMENU')
+    for key in MENU.keys():
+        print('\t\t' + key + ' - Cost $' + str(MENU[key]['cost']))
+
 #TODO: Machine On....
 print("Coffee Machine is On")
 coffee_resources = reset_machine(resources)
@@ -118,6 +123,7 @@ machine_on = True
 
 while machine_on:
     clear()
+    print_menu()
     choice = input("\nWhat would you like? (" + coffee_types()+")").lower().strip()
     if choice == "off":
         machine_on = False
