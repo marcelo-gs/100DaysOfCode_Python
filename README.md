@@ -98,3 +98,12 @@ Day016 => 24/12/2020
 Day017 => 24/12/2020
     - Quiz Game
     ---- Plus with Open Trivia DB API Questions (improvement)
+<BR>
+Day018 => 24/12/2020
+    - Hist Painting Project
+<BR>
+25/12/2020 -- Merry Christmas
+<BR>
+Day019 => 26/12/2020
+    - Etch-A-Sketch App
+    - Turtle Race!
