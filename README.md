@@ -107,3 +107,9 @@ Day018 => 24/12/2020
 Day019 => 26/12/2020
     - Etch-A-Sketch App
     - Turtle Race!
+<BR>
+Day020 => 27/12/2020
+    - Snake Game (part 1)
+<BR>
+Day021 => 27/12/2020
+    - Snake Game (part 2)
