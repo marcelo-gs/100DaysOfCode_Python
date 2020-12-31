@@ -117,5 +117,9 @@ Day021 => 27/12/2020
 Day022 => 28/12/2020
     - Pong Game
 <BR>
-Day022 => 29/12/2020
+Day023 => 29/12/2020
     - Turtle Crossing Capstone
+<BR>
+Day024 => 30/12/2020
+    - New commit on Snake Game Project: High Score funcionality
+    - Mail Merge Project
