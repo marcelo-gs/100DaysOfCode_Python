@@ -123,3 +123,6 @@ Day023 => 29/12/2020
 Day024 => 30/12/2020
     - New commit on Snake Game Project: High Score funcionality
     - Mail Merge Project
+<BR>
+Day025 => 31/12/2020
+    - U.S. States Game
