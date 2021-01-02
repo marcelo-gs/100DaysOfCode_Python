@@ -97,7 +97,7 @@ Challenge to code every day
 
 ### Day017 => 24/12/2020<br>
     - Quiz Game
-    ---- Plus with Open Trivia DB API Questions (improvement)
+    - Plus with Open Trivia DB API Questions (improvement)
 
 ### Day018 => 24/12/2020<br>
     - Hist Painting Project
