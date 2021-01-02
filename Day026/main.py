@@ -40,6 +40,10 @@ student_dict = {
 }
 student_data_frame = pandas.DataFrame(student_dict)
 
+#Looping through dictionaries:
 for (index, row) in student_data_frame.iterrows():
+        
+    #Access index and row
+    #Access row.student or row.score    
     if row.student == 'Angela':
         print(row.score)
