@@ -126,3 +126,9 @@ Day024 => 30/12/2020
 <BR>
 Day025 => 31/12/2020
     - U.S. States Game
+<BR>
+Day026 => 01/12/2020
+    - NATO Alphabet Project
+<BR>
+Day027 => 02/12/2020
+    - Mile to Km Convert GUI Project
