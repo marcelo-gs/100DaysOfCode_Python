@@ -102,7 +102,7 @@ Challenge to code every day
 ### Day018 => 24/12/2020<br>
     - Hist Painting Project
 
-25/12/2020 -- Merry Christmas
+> 25/12/2020 -- Merry Christmas
 
 ### Day019 => 26/12/2020<br>
     - Etch-A-Sketch App
