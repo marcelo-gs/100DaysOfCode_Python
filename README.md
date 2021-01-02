@@ -59,6 +59,7 @@ Day006 => 16/12/2020<br>
 <BR>
 Day007 => 16/12/2020<br>
     - Hungman Project
+    ..
 <BR>
 Day008 => 17/12/2020<br>
     - Caesar Chiper Encrypt and Decrypt project
