@@ -132,3 +132,6 @@ Challenge to code every day
 
 ### Day027 => 02/12/2020<br>
     - Mile to Km Convert GUI Project
+
+### Day028 => 02/12/2020<br>
+    - Pomodoro GUI Project
