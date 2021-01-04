@@ -58,7 +58,6 @@ Challenge to code every day
 ### Day007 => 16/12/2020
 
     - Hungman Project
-    ..
 
 ### Day008 => 17/12/2020
     - Caesar Chiper Encrypt and Decrypt project
@@ -133,5 +132,8 @@ Challenge to code every day
 ### Day027 => 02/12/2020
     - Mile to Km Convert GUI Project
 
-### Day028 => 02/12/2020
+### Day028 => 03/12/2020
     - Pomodoro GUI Project
+
+### Day029 => 04/12/2020
+    - Password Generator GUI Project

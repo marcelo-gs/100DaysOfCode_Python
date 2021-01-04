@@ -87,7 +87,7 @@ reset_button = tkinter.Button()
 #Window
 window.title("Pomodoro")
 window.config(padx=100, pady=50, bg=YELLOW)
-window.after(1000, )
+
 
 #Canvas
 canvas.create_image(103,115, image=tomato_img)
