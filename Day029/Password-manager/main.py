@@ -3,6 +3,7 @@ from tkinter import messagebox
 from PIL import Image, ImageTk
 from random import choice, randint, shuffle
 import pyperclip
+import json
 
 letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
 numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
@@ -20,6 +21,26 @@ def generate_pw():
     pyperclip.copy("".join(password_list))
     txt_password.insert(0,"".join(password_list)) 
 # ---------------------------- SAVE PASSWORD ------------------------------- #
+def search():
+    try:
+        with open("data.json", "r") as data_file:
+            #Reading old data
+            data = json.load(data_file)        
+    except FileNotFoundError:
+        messagebox.showwarning(title="Something is wrong", message="No Data File Found")
+        data = None
+        return 
+    finally:
+        website = txt_web_site.get()
+        if website in data:
+            email = data[website]["email"]
+            password = data[website]["password"]
+            pyperclip.copy(password)
+            messagebox.showinfo(title=f"{website} - Password Found", 
+                                        message=f"Email: {email}\nPassword: {password}\nPassword copied to your clipboard")
+        else:
+            messagebox.showwarning(title="Something is wrong", message=f"No details for  {website} exists.")
+
 def save_passord():
 
     website = txt_web_site.get()
@@ -38,15 +59,30 @@ def save_passord():
         messagebox.showwarning(title="Something is wrong", message=message)
         return 
     
+    new_data = {
+            website :{
+                "email": email,
+                "password":password
+            }
+    }
     is_ok = messagebox.askokcancel(title=website, message=f"These are the details entered: \nEmail:{email}\nPassword: {password}\nIs it ok to save?")
 
     if is_ok:
 
-        with open("data.txt", "a") as data_file:
-            data_file.write(f'{website} | {email} | {password}\n')
-        
-        txt_web_site.delete(0,tkinter.END)
-        txt_password.delete(0,tkinter.END)
+        try:
+            with open("data.json", "r") as data_file:
+                #Reading old data
+                data = json.load(data_file)        
+                #Updating old data with new data
+                data.update(new_data)
+        except FileNotFoundError:
+            data = new_data
+        finally:
+            with open("data.json", "w") as data_file:
+                #Saving updated data
+                json.dump(data, data_file, indent=4)
+            txt_web_site.delete(0,tkinter.END)
+            txt_password.delete(0,tkinter.END)
 
 # ---------------------------- UI SETUP ------------------------------- #
 
@@ -67,6 +103,7 @@ txt_password = tkinter.Entry(width=21)
 
 btn_add = tkinter.Button(width=34)
 btn_gen_pw = tkinter.Button(width=15)
+btn_search = tkinter.Button(width=15)
 
 #####Setup Objects
 #Window
@@ -88,6 +125,7 @@ txt_email.insert(0, "example@email.com")
 #Button
 btn_add.config(text="Add", command=save_passord)
 btn_gen_pw.config(text="Generate Password", command=generate_pw)
+btn_search.config(text="Search", command=search)
 
 #####Positions
 #line 1 
@@ -95,7 +133,8 @@ canvas.grid(column=1, row=0)
 
 #line 2
 lbl_webSite.grid(column=0, row=1)
-txt_web_site.grid(column=1, row=1, columnspan=2)
+txt_web_site.grid(column=1, row=1)
+btn_search.grid(column=2, row=1)
 
 #line 3
 lbl_email.grid(column=0, row=2)
