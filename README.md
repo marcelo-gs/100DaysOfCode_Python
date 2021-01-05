@@ -137,3 +137,6 @@ Challenge to code every day
 
 ### Day029 => 04/12/2020
     - Password Generator GUI Project
+
+### Day030 => 05/12/2020
+    - Password Generator GUI Project - part 2
