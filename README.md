@@ -140,3 +140,6 @@ Challenge to code every day
 
 ### Day030 => 05/12/2020
     - Password Generator GUI Project - part 2
+
+### Day031 => 06/12/2020
+    - Flash Cards Project
