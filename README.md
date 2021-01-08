@@ -145,4 +145,8 @@ Challenge to code every day
     - Flash Cards Project
 
 ### Day032 => 07/12/2020
-    - Birthday Wisher
+    - Birthday Wisher Project
+
+### Day033 => 08/12/2020
+    - Kenye Quotes App
+    - ISS Overhead Notifier
