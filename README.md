@@ -143,3 +143,6 @@ Challenge to code every day
 
 ### Day031 => 06/12/2020
     - Flash Cards Project
+
+### Day032 => 07/12/2020
+    - Birthday Wisher
