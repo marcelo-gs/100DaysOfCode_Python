@@ -2,7 +2,7 @@ import requests
 
 class Stock():
 
-    ALPLHAVANTAGE_API_KEY = "RCBJPQASXZ8F1DVR"
+    ALPLHAVANTAGE_API_KEY = "AplhaAPIKEY"
 
     def __init__(self, symbol:str, company_name="") -> None:
         self.symbol = symbol

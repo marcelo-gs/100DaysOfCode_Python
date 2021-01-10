@@ -1,4 +1,3 @@
-# API_KEY = "d8b5 ac9ef bfd4 1099 a959 7c72 0c1c ea3"
 # "http://newsapi.org/v2/everything"
 # ?
 # q=apple
@@ -6,13 +5,13 @@
 # from=2021-01-09
 # to=2021-01-09
 # sortBy=popularity
-# apiKey=d8b5ac9efbfd41099a9597c720c1cea3
+# apiKey=
 # everything or top-headlines
 import requests
 
 class News():
 
-    NEWSAPI_APIKEY = "d8b5ac9efbfd41099a9597c720c1cea3"
+    NEWSAPI_APIKEY = "NewsAPIKEY"
     def __init__(self, news_about, news_date) -> None:
         self.news_date = news_date
         self.news_about = news_about

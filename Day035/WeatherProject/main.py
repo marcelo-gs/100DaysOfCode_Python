@@ -1,7 +1,7 @@
 import requests
 
 #Api Key
-API_KEY = "d6e82989f9be80d113177d7c35f34418"
+API_KEY = "OpenWeatherAPIKEY"
 MY_LAT = -23.603918 # Your latitude
 MY_LONG = -46.799494 # Your longitude
 
