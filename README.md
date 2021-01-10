@@ -159,3 +159,6 @@ Challenge to code every day
     
 ### Day036 => 10/12/2020
     - Stock Trading News Alert
+
+### Day037 => 10/12/2020
+    - Habit Tracking (Pixela API)
