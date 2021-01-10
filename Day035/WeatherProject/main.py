@@ -4,6 +4,11 @@ import requests
 API_KEY = "d6e82989f9be80d113177d7c35f34418"
 MY_LAT = -23.603918 # Your latitude
 MY_LONG = -46.799494 # Your longitude
+
+#Sp, Zona Leste
+MY_LAT = -23.577695 # Your latitude
+MY_LONG = -46.484849 # Your longitude
+
 URL = "https://api.openweathermap.org/data/2.5/onecall"
 
 parameters = {
@@ -26,6 +31,7 @@ for hour_data in weather_slice:
         will_rain = True
 
 if will_rain:
+    print(weather_data["alerts"])
     print("Bring an Umbrella")
     #send an e-mail or text someone
     #fell free to do anything
