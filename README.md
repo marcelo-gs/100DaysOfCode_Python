@@ -1,15 +1,15 @@
 # 100 days of Python Code!!!
 
-Challenge to code every day 
+Challenge to code every day
 
 ### Day001 => 14/12/2020
-    - The first day, build my envirolment 
+    - The first day, build my envirolment
     - Printing
     - Commenting
     - Debugging
-    - String Manipulation 
+    - String Manipulation
     - Variables
-    
+
     Project:
      - Brand Name Generator
 
@@ -28,7 +28,7 @@ Challenge to code every day
     - Logical Operators
     - Code Blocks
     - Scope
-    
+
     Project:
     - Making a treasure island game
 
@@ -70,8 +70,8 @@ Challenge to code every day
     - The Secret Auction Program
 
 ### Day010 => 20/12/2020
-    - Exercises 
-    - Calculator (to be continue...) 
+    - Exercises
+    - Calculator (to be continue...)
 
 ### Day010 => 21/12/2020
     - Calculator
@@ -153,10 +153,10 @@ Challenge to code every day
 
 ### Day034 => 09/12/2020
     - Quizzler Project (Improvement of Quiz App from day 017)
-    
+
 ### Day035 => 09/12/2020
     - Weather Project
-    
+
 ### Day036 => 10/12/2020
     - Stock Trading News Alert
 
@@ -173,6 +173,8 @@ Challenge to code every day
     - Flight Deal Finder
     - Flight Club
 
-### Day040 => 12/12/2020 
+### Day040 => 12/12/2020
     - HTML Introduction
 
+### Day041 => 13/12/2020
+    - HTML Intermediate
