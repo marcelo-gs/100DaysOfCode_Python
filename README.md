@@ -166,6 +166,11 @@ Challenge to code every day
 ### Day037 => 10/12/2020
     - GoogleSheet and Nutritionix API
 
-### Day038-039 => 11/12/2020
+### Day038 => 11/12/2020
+    - Workout Tracking
+
+### Day039-040 => 11/12/2020
     - Flight Deal Finder
     - Flight Club
+
+### Day040 => 12/12/2020 
