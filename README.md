@@ -173,8 +173,11 @@ Challenge to code every day
     - Flight Deal Finder
     - Flight Club
 
-### Day040 => 12/12/2020
+### Day041 => 12/12/2020
     - HTML Introduction
 
-### Day041 => 13/12/2020
+### Day042 => 13/12/2020
     - HTML Intermediate
+
+### Day042 => 13/12/2020
+    - CSS Introduction
