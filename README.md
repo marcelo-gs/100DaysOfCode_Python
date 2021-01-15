@@ -179,8 +179,11 @@ Challenge to code every day
 ### Day042 => 13/12/2020
     - HTML Intermediate
 
-### Day042 => 13/12/2020
+### Day043 => 13/12/2020
     - CSS Introduction
 
-### Day042 => 13/12/2020
+### Day044 => 13/12/2020
     - CSS Intermediate
+
+### Day045 => 13/12/2020
+    - Scrap the best 100 movies site
