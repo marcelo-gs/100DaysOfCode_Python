@@ -19,7 +19,7 @@ for title in titles:
         #the first one!
         movies[1] = title.getText()
 
-with open("top100-best_movies.txt", "w", encoding="utf-8") as file:
+with open("top100-best_movies.txt", "w", encoding="ISO-8859-1") as file:
     for i in range(101):
         if i > 0:
             try:
