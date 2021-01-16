@@ -179,11 +179,17 @@ Challenge to code every day
 ### Day042 => 13/12/2020
     - HTML Intermediate
 
-### Day043 => 13/12/2020
+### Day043 => 14/12/2020
     - CSS Introduction
 
-### Day044 => 13/12/2020
+### Day044 => 15/12/2020
     - CSS Intermediate
 
-### Day045 => 13/12/2020
+### Day045 => 15/12/2020
     - Scrap the best 100 movies site
+
+### Day046 => 16/12/2020
+    - Create a Spotify Playlist based on Billboard top 100 musics (By Year)
+
+### Day046 => 16/12/2020
+    - Automated Amazon Price Tracker
