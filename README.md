@@ -191,5 +191,11 @@ Challenge to code every day
 ### Day046 => 16/12/2020
     - Create a Spotify Playlist based on Billboard top 100 musics (By Year)
 
-### Day046 => 16/12/2020
+### Day047 => 16/12/2020
     - Automated Amazon Price Tracker
+
+### Day048 => 17/12/2020
+    - Selenium Webdriver (Cookie Game automated)
+
+### Day049 => 17/12/2020
+    - LinkedIN Automated Application bot
