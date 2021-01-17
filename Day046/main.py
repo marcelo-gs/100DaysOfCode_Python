@@ -1,32 +1,49 @@
 from bs4 import BeautifulSoup
 import requests
-import smtplib
+import spotipy 
+from spotipy.oauth2 import SpotifyOAuth
 
-header = {
-    "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36", 
-    "Accept-Language": "en-US,en;q=0.9,pt-BR;q=0.8,pt;q=0.7"
-}
-product_url = "https://www.amazon.com/Instant-Pot-Duo-Evo-Plus/dp/B07W55DDFB/ref=sr_1_1?qid=1597662463"
-response = requests.get(product_url, headers=header)
+
+
+SPOTIPY_CLIENT_ID="-"
+SPOTIPY_CLIENT_SECRET="-"
+SPOTIPY_REDIRECT_URI = "http://example.com"
+
+scope = "playlist-modify-private"
+
+sp = spotipy.Spotify(auth_manager=SpotifyOAuth(scope=scope, 
+                                               client_id=SPOTIPY_CLIENT_ID, 
+                                               client_secret=SPOTIPY_CLIENT_SECRET, 
+                                               redirect_uri=SPOTIPY_REDIRECT_URI,
+                                               show_dialog=True,
+                                               cache_path="token.txt"))
+
+user_id = sp.current_user()["id"]
+#dod5b3531ygaobua4li144qu2
+print(user_id)
+date = input("Witch year do you want to travel? Type the date in this format YYYY-MM-DD:")
+url = "https://www.billboard.com/charts/hot-100/" + date
+print(url)
+response = requests.get(url)
 response.raise_for_status()
-amazon_response = response.text
-#print(amazon_response)
+billaboard = response.text
+soup = BeautifulSoup(billaboard, "html.parser")
 
-BUY_PRICE = 100
+titles = soup.find_all(name="span", class_="chart-element__information")
+song_names = [ song.find(name="span", class_="chart-element__information__song text--truncate color--primary").getText()  for song in titles]
 
-soup = BeautifulSoup(amazon_response, "lxml")
-price = soup.find(name="span", id="priceblock_ourprice")
-price_as_float = float(price.getText().replace("$",""))
-title = soup.find(id="productTitle").get_text().strip()
+song_uris = []
+year = date.split("-")[0]
+for song in song_names:
+    result = sp.search(q=f"track:{song} year:{year}", type="track")
+    #print(result)
+    try:
+        uri = result["tracks"]["items"][0]["uri"]
+        song_uris.append(uri)
+    except IndexError:
+        print(f"{song} doesn't exist in Spotify. Skipped.")
 
-if price_as_float < BUY_PRICE:
-    message = f"{title} is now {price}"
-    with smtplib.SMTP("smtp.google.com", port=587) as connection:
-        connection.starttls()
-        result = connection.login("email@email", "password.password")
-        connection.sendmail(
-            from_addr="email@email",
-            to_addrs="email2@email",
-            msg=f"Subject:Amazon Price Alert!\n\n{message}\n{url}"
-        )
-#◬
+playlist_name = f"{date} Billboard 100"    
+playlist_id = sp.user_playlist_create(user=user_id, name=playlist_name, public=False, description="By Marcelo Gomes on Python")
+sp.user_playlist_add_tracks(user_id, playlist_id, tracks=song_uris)
+
