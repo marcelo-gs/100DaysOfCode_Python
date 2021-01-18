@@ -199,3 +199,9 @@ Challenge to code every day
 
 ### Day049 => 17/12/2020
     - LinkedIN Automated Application bot
+
+### Day050 => 18/12/2020
+    - Tinder Bot
+
+### Day051 => 18/12/2020
+    - SpeedTest Twitter bot 
