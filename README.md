@@ -205,3 +205,6 @@ Challenge to code every day
 
 ### Day051 => 18/12/2020
     - SpeedTest Twitter bot 
+
+### Day052 => 18/12/2020
+    - Instagram Follower bot 
