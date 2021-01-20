@@ -220,3 +220,12 @@ Challenge to code every day
 
 ### Day056 => 20/12/2020
     - Name Card Project
+
+### Day057 => 20/12/2020
+    - Blog
+
+### Day058 => 20/12/2020
+    - Bootstrap
+
+### Day059 => 20/12/2020
+    - Blog (Upgrated)
