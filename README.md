@@ -126,106 +126,111 @@ Challenge to code every day
 ### Day025 => 31/12/2020
     - U.S. States Game
 
-### Day026 => 01/12/2020
+### Day026 => 01/01/2021
     - NATO Alphabet Project
 
-### Day027 => 02/12/2020
+### Day027 => 02/01/2021
     - Mile to Km Convert GUI Project
 
-### Day028 => 03/12/2020
+### Day028 => 03/01/2021
     - Pomodoro GUI Project
 
-### Day029 => 04/12/2020
+### Day029 => 04/01/2021
     - Password Generator GUI Project
 
-### Day030 => 05/12/2020
+### Day030 => 05/01/2021
     - Password Generator GUI Project - part 2
 
-### Day031 => 06/12/2020
+### Day031 => 06/01/2021
     - Flash Cards Project
 
-### Day032 => 07/12/2020
+### Day032 => 07/01/2021
     - Birthday Wisher Project
 
-### Day033 => 08/12/2020
+### Day033 => 08/01/2021
     - Kenye Quotes App
     - ISS Overhead Notifier
 
-### Day034 => 09/12/2020
+### Day034 => 09/01/2021
     - Quizzler Project (Improvement of Quiz App from day 017)
 
-### Day035 => 09/12/2020
+### Day035 => 09/01/2021
     - Weather Project
 
-### Day036 => 10/12/2020
+### Day036 => 10/01/2021
     - Stock Trading News Alert
 
-### Day037 => 10/12/2020
+### Day037 => 10/01/2021
     - Habit Tracking (Pixela API)
 
-### Day037 => 10/12/2020
+### Day037 => 10/01/2021
     - GoogleSheet and Nutritionix API
 
-### Day038 => 11/12/2020
+### Day038 => 11/01/2021
     - Workout Tracking
 
-### Day039-040 => 11/12/2020
+### Day039-040 => 11/01/2021
     - Flight Deal Finder
     - Flight Club
 
-### Day041 => 12/12/2020
+### Day041 => 12/01/2021
     - HTML Introduction
 
-### Day042 => 13/12/2020
+### Day042 => 13/01/2021
     - HTML Intermediate
 
-### Day043 => 14/12/2020
+### Day043 => 14/01/2021
     - CSS Introduction
 
-### Day044 => 15/12/2020
+### Day044 => 15/01/2021
     - CSS Intermediate
 
-### Day045 => 15/12/2020
+### Day045 => 15/01/2021
     - Scrap the best 100 movies site
 
-### Day046 => 16/12/2020
+### Day046 => 16/01/2021
     - Create a Spotify Playlist based on Billboard top 100 musics (By Year)
 
-### Day047 => 16/12/2020
+### Day047 => 16/01/2021
     - Automated Amazon Price Tracker
 
-### Day048 => 17/12/2020
+### Day048 => 17/01/2021
     - Selenium Webdriver (Cookie Game automated)
 
-### Day049 => 17/12/2020
+### Day049 => 17/01/2021
     - LinkedIN Automated Application bot
 
-### Day050 => 18/12/2020
+### Day050 => 18/01/2021
     - Tinder Bot
 
-### Day051 => 18/12/2020
+### Day051 => 18/01/2021
     - SpeedTest Twitter bot 
 
-### Day052 => 18/12/2020
+### Day052 => 18/01/2021
     - Instagram Follower bot 
 
-### Day053 => 18/12/2020
+### Day053 => 18/01/2021
     - Zillow Project
 
-### Day054 => 19/12/2020
+### Day054 => 19/01/2021
     - Python Decorator and Flask Framework
 
-### Day055 => 19/12/2020
+### Day055 => 19/01/2021
     - High Low web
 
-### Day056 => 20/12/2020
+### Day056 => 20/01/2021
     - Name Card Project
 
-### Day057 => 20/12/2020
+### Day057 => 20/01/2021
     - Blog
 
-### Day058 => 20/12/2020
+### Day058 => 20/01/2021
     - Bootstrap
 
-### Day059 => 20/12/2020
+### Day059 => 20/01/2021
     - Blog (Upgrated)
+
+### Day60 => 21/01/2021
+    - Receive data from a form
+    - Blog (Upgrated) -> Contact form
+    
