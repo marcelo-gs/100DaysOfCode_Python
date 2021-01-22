@@ -233,4 +233,7 @@ Challenge to code every day
 ### Day60 => 21/01/2021
     - Receive data from a form
     - Blog (Upgrated) -> Contact form
-    
+
+### Day61 => 22/01/2021
+    - Building Advanced forms with Flask and Bootstrap
+
