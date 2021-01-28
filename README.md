@@ -245,3 +245,12 @@ Challenge to code every day
 
 ### Day64 => 26/01/2021
     - Top Movies website
+
+### Day65 => 26/01/2021
+    - Learning about WebDesgin --No project
+
+### Day66 => 27/01/2021
+    - Cafe & Wifi API Restful
+    
+### Day67 => 28/01/2021
+    - Blog Updated (Restful)
