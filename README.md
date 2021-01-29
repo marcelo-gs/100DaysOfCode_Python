@@ -254,3 +254,6 @@ Challenge to code every day
     
 ### Day67 => 28/01/2021
     - Blog Updated (Restful)
+
+### Day68 => 28/01/2021
+    - Flask Authentication
