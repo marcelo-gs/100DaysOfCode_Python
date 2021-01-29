@@ -255,8 +255,11 @@ Challenge to code every day
 ### Day67 => 28/01/2021
     - Blog Updated (Restful)
 
-### Day68 => 28/01/2021
+### Day68 => 29/01/2021
     - Flask Authentication
 
-### Day69 => 28/01/2021
+### Day69 => 29/01/2021
     - Complete blog with Flask
+
+### Day70 => 29/01/2021
+    - Heroku and Gunicorn to host sites
