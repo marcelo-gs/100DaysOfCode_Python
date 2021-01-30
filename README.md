@@ -263,3 +263,11 @@ Challenge to code every day
 
 ### Day70 => 29/01/2021
     - Heroku and Gunicorn to host sites
+
+### Day70 => 30/01/2021
+    - Data Exploration with Pandas
+
+### Day70 => 30/01/2021
+    - Data Visialization Matplotlib
+
+    
