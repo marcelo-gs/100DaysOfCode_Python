@@ -264,10 +264,11 @@ Challenge to code every day
 ### Day70 => 29/01/2021
     - Heroku and Gunicorn to host sites
 
-### Day70 => 30/01/2021
+### Day71 => 30/01/2021
     - Data Exploration with Pandas
 
-### Day70 => 30/01/2021
+### Day72 => 30/01/2021
     - Data Visialization Matplotlib
 
-    
+### Day73 => 30/01/2021
+    - LEGO Analysis (Aggregate & Merge Data)
