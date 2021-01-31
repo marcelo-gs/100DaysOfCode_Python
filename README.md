@@ -272,3 +272,10 @@ Challenge to code every day
 
 ### Day73 => 30/01/2021
     - LEGO Analysis (Aggregate & Merge Data)
+
+### Day74 => 31/01/2021
+    - How search volume for "Bitcoin" relates to the price of Bitcoin
+    - How search volume for a hot stock like Telsa relates to that stock's price and
+    - How searches for "Unemployment Benefits" vary with the actual unemployment rate in the United States
+
+
