@@ -289,3 +289,6 @@ Challenge to code every day
 
 ### Day078 => 31/01/2021
     - Nobel Prize Analysis
+
+### Day079 => 31/01/2021
+    - Dr Semmelweis Handwashing Discovery
