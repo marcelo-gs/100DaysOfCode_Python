@@ -230,54 +230,57 @@ Challenge to code every day
 ### Day059 => 20/01/2021
     - Blog (Upgrated)
 
-### Day60 => 21/01/2021
+### Day060 => 21/01/2021
     - Receive data from a form
     - Blog (Upgrated) -> Contact form
 
-### Day61 => 22/01/2021
+### Day061 => 22/01/2021
     - Building Advanced forms with Flask and Bootstrap
 
-### Day62 => 23/01/2021
+### Day062 => 23/01/2021
     - Coffee & Wifi project
 
-### Day63 => 25/01/2021
+### Day063 => 25/01/2021
     - Database with SQLite
 
-### Day64 => 26/01/2021
+### Day064 => 26/01/2021
     - Top Movies website
 
-### Day65 => 26/01/2021
+### Day065 => 26/01/2021
     - Learning about WebDesgin --No project
 
-### Day66 => 27/01/2021
+### Day066 => 27/01/2021
     - Cafe & Wifi API Restful
     
-### Day67 => 28/01/2021
+### Day067 => 28/01/2021
     - Blog Updated (Restful)
 
-### Day68 => 29/01/2021
+### Day068 => 29/01/2021
     - Flask Authentication
 
-### Day69 => 29/01/2021
+### Day069 => 29/01/2021
     - Complete blog with Flask
 
-### Day70 => 29/01/2021
+### Day070 => 29/01/2021
     - Heroku and Gunicorn to host sites
 
-### Day71 => 30/01/2021
+### Day071 => 30/01/2021
     - Data Exploration with Pandas
 
-### Day72 => 30/01/2021
+### Day072 => 30/01/2021
     - Data Visialization Matplotlib
 
-### Day73 => 30/01/2021
+### Day073 => 30/01/2021
     - LEGO Analysis (Aggregate & Merge Data)
 
-### Day74 => 31/01/2021
+### Day074 => 31/01/2021
     - How search volume for "Bitcoin" relates to the price of Bitcoin
     - How search volume for a hot stock like Telsa relates to that stock's price and
     - How searches for "Unemployment Benefits" vary with the actual unemployment rate in the United States
 
-### Day75 => 31/01/2021
+### Day075 => 31/01/2021
     - Google Store Analysis
+
+### Day076 => 31/01/2021
+    - NumPy
 
