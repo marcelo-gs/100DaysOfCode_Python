@@ -287,3 +287,5 @@ Challenge to code every day
 ### Day077 => 31/01/2021
     - Film Budget Analysis (Seaborn DataVisualization)
 
+### Day078 => 31/01/2021
+    - Nobel Prize Analysis
