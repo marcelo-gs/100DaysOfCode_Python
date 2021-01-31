@@ -278,4 +278,6 @@ Challenge to code every day
     - How search volume for a hot stock like Telsa relates to that stock's price and
     - How searches for "Unemployment Benefits" vary with the actual unemployment rate in the United States
 
+### Day75 => 31/01/2021
+    - Google Store Analysis
 
