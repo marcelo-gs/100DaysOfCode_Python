@@ -56,7 +56,7 @@ message = ""
 while (message != "<exit>"):
     try:
         message = input("Please, Type your message: (Type <exit> to finish)\n").strip().upper()
-        if message != "<exit>":  
+        if message != "<EXIT>":  
             final_message = []
             skipped_letters = []
             final_message.append(ALLOWED_CHAR["Starting Signal"])
